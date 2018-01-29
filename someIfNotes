@@ -1,0 +1,6 @@
+# indented lines only execute if statement is true
+# followed by 'else:', indented lines after 'else:' happen if statement is false
+# followed by "elif:", the statement following elif will only happpen if the first statement is false, otherwise it will be skipped
+
+
+Comparison operators:  <   >   >=    <=  == (does equal)    != (doesn't equal)
