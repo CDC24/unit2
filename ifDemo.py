@@ -9,4 +9,4 @@ if num > 0:
 elif num < 0:
     print (num,"is negative.")
 else:
-    print (num,"is zero! Quick maths!"
+    print (num,"is zero! Quick maths!")
