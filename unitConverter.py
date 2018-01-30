@@ -2,11 +2,20 @@
 #1/29/18
 #unitConverter.py - uses if statements to allow user to choose a conversion type and perform it
 
-print ("Which conversion would you like to perform? 1)Kilometers to meters, 2)Kilograms to pounds, 3)Liters to gallons, or 4)Celsius to Fahrenheit")
-conversion = input("Enter the number of the conversion you would like to perform. ")
+print ("Which conversion would you like to perform?  1) Kilometers to meters,  2) Kilograms to pounds,  3) Liters to gallons, or  4) Celsius to Fahrenheit")
+conversion = int(input("Enter the number of the conversion you would like to perform. "))
 
 if conversion == 1:
     km = float(input("Enter a number of kilometers: "))
     print (km,"Km =",km*0.621371192,"miles.")
 elif conversion == 2:
-    print ("um OK")
+    kg = float(input("Enter a number of kilograms: "))
+    print (kg,"Kg =",kg*2.20462,"pounds.")
+elif conversion == 3:
+    L = float(input("Enter a number of liters: "))
+    print (L,"Liters =",L*0.264172,"gallons.")
+elif conversion == 4:
+    C = float(input("Enter a number of degrees Celcius: "))
+    print (C,"Degrees Celsius =",(C*1.8)+32,"Degrees Fahrenheit.")
+else:
+    print ("Uh, think again, dummy. Numbers 1-4, please...?")
