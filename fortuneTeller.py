@@ -27,13 +27,13 @@ elif num==3 and color == "red":
     
 elif num==4 and color == "blue":
     print ("Aye... before the year is out, a dog will follow you home!")
-        what = ("wait! Hurry! Choose: Curry or sandwiches??")
-        if what = "curry":
-            print ("Yes! the dog will be friendly!")
-        elif what = "sandwiches":
-            print ("No...! the dog will actually be a demon from the depths of Hell!")
-        else:
-            print ("Mm... the spirits are confused... there may be no dog after all.")
+    what = ("wait! Hurry! Choose: Curry or sandwiches??")
+    if what = "curry":
+        print ("Yes! the dog will be friendly!")
+    elif what = "sandwiches":
+        print ("No...! the dog will actually be a demon from the depths of Hell!")
+    else:
+        print ("Mm... the spirits are confused... there may be no dog after all.")
 elif num==4 and color == "red":
     print ("Yarr!... Scurvy'll take hold'a thee 'n ye'll ne'er see land again!")
 else:
