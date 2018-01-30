@@ -1,0 +1,13 @@
+#compound conditionals- conditionals with multiple parts
+
+if (statement1) and (statement2):
+  these lines will run
+  only if both the above statements are true
+
+if (statement1) or (statement2):
+  these lines will run
+  if one or both of the above statements is true
+  
+if not (statement1):
+    these lines happen
+    if statement1 is false
