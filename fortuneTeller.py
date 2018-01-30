@@ -27,7 +27,7 @@ elif num==3 and color == "red":
     
 elif num==4 and color == "blue":
     print ("Aye... before the year is out, a dog will follow you home!")
-    what = ("wait! Hurry! Choose: Curry or sandwiches??")
+    what = input("Wait! Hurry! Choose: Curry or sandwiches??")
     if what == "curry":
         print ("Yes! the dog will be friendly!")
     elif what == "sandwiches":
