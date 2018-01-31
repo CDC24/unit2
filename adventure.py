@@ -17,6 +17,8 @@ if first == "yes":
         print ("Oooooh... bad move. Never ask for help. YOU LOSE. RIP",name,", died",year)
     if second == "no":
         print ("Well done! Assistance is for the weak.")
-        third = input ("You start to get tired. Do you try and stay awake by drinking more COke?")
+        third = input ("You start to get tired. Do you try and stay awake by drinking more Coke?")
         if third == "yes":
             fourth = input("All that coke is making you feel sick. You throw up. Gross! Do you try to clean it up?")
+        if third == "no":
+            fourth = input("You fall asleep
