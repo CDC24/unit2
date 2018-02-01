@@ -107,7 +107,7 @@ elif first == "no":
                     print ("You were unable to make a bottle fort and you died of exposure. YOU LOSE. RIP",name,", died",year)
         elif third == "no":
             print ("Well, night fell, and you are starting to get hypothermia since you have no shelter.")
-            fourth = input ("Do you want to build a fire to keep warm?")
+            fourth = input ("Do you want to build a fire to keep warm? ")
             if fourth == "yes":
                 fifth= input("You have matches. Do you want to try and find a lighter in the store instead, to save matches? ")
                 if fifth == "yes":
@@ -115,7 +115,7 @@ elif first == "no":
                 elif fifth == "no":
                     print ("You started a fire, tripping the store's alarm. Firemen following the smoke found you sitting there and rescued you. YOU WIN!!")
             elif fourth == "no":
-                ("You froze to death, dipstick! Why didn't you make a fire? YOU LOSE. RIP",name,", died",year)
+                print ("You froze to death, dipstick! Why didn't you make a fire? YOU LOSE. RIP",name,", died",year)
                         
                         
                         
