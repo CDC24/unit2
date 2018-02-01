@@ -116,16 +116,21 @@ elif first == "no":
                     print ("You started a fire, tripping the store's alarm. Firemen following the smoke found you sitting there and rescued you. YOU WIN!!")
             elif fourth == "no":
                 print ("You froze to death, dipstick! Why didn't you make a fire? YOU LOSE. RIP",name,", died",year)
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
