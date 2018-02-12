@@ -18,11 +18,11 @@ else:
     
     
     
-if "p" or "P" in word1 and if "p" or "P" in word2:
+if word1.count("p" or "P")>=1 and word2.count("p")>=1:
     print ("These words both have p's.")
     
-if "p" or "P" in word1:
+elif word1.count("p" or "P")>=1:
     print (word1,"has at least 1 p.")
     
-if "p" or "P" in word2:
+elif word2.count("p" or "P")>=1:
     print (word2,"has at least 1 p.")
