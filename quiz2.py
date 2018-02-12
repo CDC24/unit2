@@ -26,3 +26,13 @@ elif word1.count("p" or "P")>=1:
     
 elif word2.count("p" or "P")>=1:
     print (word2,"has at least 1 p.")
+    
+print ("Now is addition time.")
+
+num1 = int(input("Enter the first number: ")
+num2 = int(input("Enter the second number: ")
+
+if num1+num2==12:
+    print ("Correct! These numbers add to 12!")
+else:
+    print ("False! These numbers add to",num1+num2)
