@@ -18,7 +18,8 @@ else:
     
     
     
-
+if "p" or "P" in word1 and if "p" or "P" in word2:
+    print ("These words both have p's.")
     
 if "p" or "P" in word1:
     print (word1,"has at least 1 p.")
